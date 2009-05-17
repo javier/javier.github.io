@@ -22,6 +22,32 @@
 	
 	<link rel="alternate" type="application/rss+xml" title="format internet: RSS Feed" href="http://feeds.feedburner.com/FormatInternet" />
 	<link rel="pingback" href="http://formatinternet.wordpress.com/xmlrpc.php" />	
+	
+	<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAXV794GofahuBqHvuJ_GuqxQOQlFoB8tQojVQzYNVQxdP1orCLBQddSYuuweubtGRkTSAJX6NeOOUHA"></script>
+    <script type="text/javascript">
+ 
+    google.load("feeds", "1");
+ 
+	function rssFeedSetup(){
+	var feedpointer=new google.feeds.Feed("http://feeds.feedburner.com/FormatInternet") //Google Feed API method
+	feedpointer.setNumEntries(4) //Google Feed API method
+	feedpointer.load(displayFeed) //Google Feed API method
+	}
+
+	function displayFeed(result){
+	if (!result.error){		
+		var rssOutput=""
+		var theFeeds=result.feed.entries
+		for (var i=0; i<theFeeds.length; i++) {	
+			rssOutput+="<li><a href='" + theFeeds[i].link + "'>" + theFeeds[i].title + "</a></li>";
+			}
+		
+		document.getElementById("rss_update_list").innerHTML=rssOutput
+		}	
+	}
+
+	google.setOnLoadCallback(rssFeedSetup);
+    </script>
 </head>
 
 <body>
@@ -137,15 +163,20 @@ Users Group (SRUG)</a> and <a href="http://www.workingwithrails.com/group/3837-m
 					Depending on how you know me, I go with different nicknames and e-mail addresses. 
 					<BR/>
 					These are the ones I've been using lately
-				</p>               
-            </div>
-            <div class="span-8">               
-				<p>
+				<BR/><BR/>
 					javier at formatinternet.com <BR/>
 					javier.ramirez.gomara at gmail.com <BR/>
 					jramirez at aspgems.com <BR/>
 					supercoco9 at yahoo.es <BR/>
 				</p>
+            </div>
+            <div class="span-8">               
+				<div class="box">
+					<h3 class="sidebar-title">My latest blog entries</h3>
+					<ul id="rss_update_list"></ul>
+					<div id="formatinternet_feed"></div>
+					<a href="http://feeds.feedburner.com/FormatInternet" id="twitter-link" style="display:block;text-align:right;">Subscribe to my feed</a>
+				</div>
             </div>
             <div class="span-8 last">               
                <div id="twitter_div" class="box">
