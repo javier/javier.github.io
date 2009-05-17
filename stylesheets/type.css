@@ -1,0 +1,31 @@
+body {font-family:Verdana,Georgia,"Helvetica Neue", Arial, Helvetica, sans-serif;}
+
+.color-link-dark {color: #D31D8C; }
+.color-link-light {color: #EE88CD;; }
+.color-title-dark {color: #4DC5D6;; }
+.color-title-light {color: #A5F2F3; }
+.color-background-dark {color: #BCDD11;; }
+.color-background-light {color: #F1FAC0; }
+.color-alt-dark {color: #CBCB9C; }
+.color-alt-light {color: #EEEEDF; }
+.color-text {color: #000000;}
+.color-white {color: #FFFFFF;}
+
+.background-link-dark {background-color: #D31D8C; }
+.background-link-light {background-color: #EE88CD;; }
+.background-title-dark {background-color: #4DC5D6;; }
+.background-title-light {background-color: #A5F2F3; }
+.background-background-dark {background-color: #BCDD11;; }
+.background-background-light {background-color: #F1FAC0; }
+.background-alt-dark {background-color: #CBCB9C; }
+.background-alt-light {background-color: #EEEEDF; }
+.background-text {background-color: #000000;}
+.background-white {background-color: #FFFFFF;}
+
+
+/* overrides of blueprint defined styles */
+h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#4DC5D6;}
+.alt { color: #CBCB9C; } 
+a:focus, a:hover {color:#EE88CD;}
+a {color:#D31D8C;}
+			 
