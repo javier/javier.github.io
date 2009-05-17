@@ -4,6 +4,9 @@ body { background: #FFFFFF url(images/gradient_white.jpg) repeat-x; color: #0000
 #menu li a { padding: 3px 6px; color: #D31D8C; text-decoration: none; }
 #menu li a:hover, #menu li a.current { background: #EE88CD; }
 
+ul#twitter_update_list { list-style-type: none;}
+ul#twitter_update_list li { padding-bottom: 1.5em;}
+
 #header-separator {background: #FFFFFF; height: 15px;}
 
 #footer { padding: 85px 0 5px 0; background: #A4F2F2 url(images/footer_white.jpg) repeat-x; min-height: 100px; }
