@@ -24,16 +24,16 @@
 	<link rel="pingback" href="http://formatinternet.wordpress.com/xmlrpc.php" />
 
 	<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAXV794GofahuBqHvuJ_GuqxQOQlFoB8tQojVQzYNVQxdP1orCLBQddSYuuweubtGRkTSAJX6NeOOUHA"></script>
-    <script type="text/javascript">
-	<![CDATA[//><!--
-    google.load("feeds", "1");
-
+	<script language="JavaScript" type="text/javascript">
+	//<![CDATA[
+	google.load("feeds", "1");
+	
 	function rssFeedSetup(){
 	var feedpointer=new google.feeds.Feed("http://feeds.feedburner.com/FormatInternet"); //Google Feed API method
 	feedpointer.setNumEntries(4) //Google Feed API method
 	feedpointer.load(displayFeed) //Google Feed API method
 	}
-
+		
 	function displayFeed(result){
 	if (!result.error){
 		var rssOutput=""
@@ -45,10 +45,10 @@
 		document.getElementById("rss_update_list").innerHTML=rssOutput
 		}
 	}
-
+	
 	google.setOnLoadCallback(rssFeedSetup);
-	//--><!]]>
-    </script>
+	//]]>
+	</script>    
 </head>
 
 <body>
