@@ -30,13 +30,13 @@
 	<script language="JavaScript" type="text/javascript">
 	//<![CDATA[
 	google.load("feeds", "1");
-	
+
 	function rssFeedSetup(){
 	var feedpointer=new google.feeds.Feed("http://feeds.feedburner.com/FormatInternet"); //Google Feed API method
 	feedpointer.setNumEntries(4) //Google Feed API method
 	feedpointer.load(displayFeed) //Google Feed API method
 	}
-		
+
 	function displayFeed(result){
 	if (!result.error){
 		var rssOutput=""
@@ -48,10 +48,10 @@
 		document.getElementById("rss_update_list").innerHTML=rssOutput
 		}
 	}
-	
+
 	google.setOnLoadCallback(rssFeedSetup);
 	//]]>
-	</script>    
+	</script>
 	<meta name="google-site-verification" content="1JhFCwT8X4KvPGXoZp0HfYiaiNHxW0w2HK0V3YJBRG4" />
 </head>
 
@@ -70,15 +70,15 @@
 
     </div>
     <div class="container full-width" id="header-separator"></div>
-	<div class="container">
+	<div class="container vcard">
 		<div class="span-8 prepend-1">
-		<h1>Javier Ramírez</h1>
+		<h1><span class="fn n"><span class="given-name">Javier</span> <span class="family-name">Ramírez</span></span></h1>
 		</div>
 		<div class="span-15 last">
-			<span class="quiet">(also known as supercoco9, formatinternet)</span>
+			<span class="quiet">(also known as <span class="nickname">supercoco9</span>, <span class="nickname">formatinternet</span>)</span>
 		</div>
 		<hr/>
-		<h2 class="alt">Software Architect with a special focus on Web development and Ruby on Rails </h2>
+		<h2 class="alt"><span class="title">Software Architect</span> <span class="note">with a special focus on Web development and Ruby on Rails</span> </h2>
 
 		<hr/>
 
@@ -86,7 +86,7 @@
 
 		<div class="span-15 prepend-1 colborder">
 			<p>
-				<img src="http://gravatar.com/avatar/b5d967f0b84451319fd719451d19cc12?s=300" class="top pull-1 left" alt="javier ramirez" title="javier ramirez" width="250" />
+				<img src="http://gravatar.com/avatar/b5d967f0b84451319fd719451d19cc12?s=300" class="top pull-1 left photo" alt="javier ramirez" title="javier ramirez" width="250" />
 				Since 1995 I've been earning my salt in software development, doing this and that in different places, industries and companies,
 				including a small java-centric shop I co-founded &mdash;and then cowardly left&mdash; some years ago.
 			</p>
@@ -94,7 +94,7 @@
 				Along these years I've delivered training on things like Robotics, Software Engineering, JAVA, PHP and Ruby on Rails.
 			</p>
 			<p>
-				Apart from the occasional freelancing or training gig, I've spent roughly <strong>the last 3 years </strong> working for <a href="http://aspgems.com">ASPgems</a>
+				Apart from the occasional freelancing or training gig, I've spent roughly <strong>the last 3 years </strong> working for <a href="http://aspgems.com" class="org">ASPgems</a>
 				doing <strong>Ruby (on Rails)</strong> development.
 			</p>
 			<p>
@@ -102,42 +102,43 @@
 				<em><span class="dquo">&#8220;</span>Aptana RadRails: An IDE for Rails Development&#8221;</em>
 				</a>
 				and an active member of the local Ruby scene, being a founding member of the
-				<a href="http://www.conferenciarails.org">Spanish Rails Conference</a>, the <a href="http://www.srug.org">Spanish Ruby
-Users Group (SRUG)</a> and <a href="http://www.workingwithrails.com/group/3837-madrid-rb-madrid-ruby-and-rails-users-group">madrid-rb</a>, the Ruby users group in Madrid.
+				<a href="http://www.conferenciarails.org" class="org">Spanish Rails Conference</a>, the <a href="http://www.srug.org" class="org">Spanish Ruby
+Users Group (SRUG)</a> and <a href="http://www.workingwithrails.com/group/3837-madrid-rb-madrid-ruby-and-rails-users-group" class="org">madrid-rb</a>, the Ruby users group in Madrid.
 			</p>
-			<p>The list of companies I've work for includes Fundación San Valero, Intersneter, Qarana Solutions, Genetsis Partners, Vector Software Factory,
-			Intesys Integrated Services, Utende (I co-founded it), Fatwire and ASPgems.</p>
-			<p>I have worked as a teacher for three Universities: Fundación San Valero, Universidad Francisco de Vitoria and Tracor/San Pablo CEU</p>
+			<p>The list of companies I've work for includes <span class="org">Fundación San Valero</span>, <span class="org">Intersneter</span>, <span class="org">Qarana Solutions</span>, <span class="org">Genetsis Partners</span>, <span class="org">Vector Software Factory</span>,
+			<span class="org">Intesys Integrated Services</span>, <span class="org">Utende</span> (I co-founded it), <span class="org">Fatwire</span> and <span class="org">ASPgems</span>.</p>
+			<p>I have worked as a teacher for three Universities: <span class="org">Fundación San Valero</span>, <span class="org">Universidad Francisco de Vitoria</span> and <span class="org">Tracor/San Pablo CEU</span></p>
 			<p>I'm currently based in Madrid, but in the past I've been working in Zaragoza, Brescia, New York and Barcelona.</p>
 		</div>
     <div class="span-7 last">
 
 			<h3>Javier Ramírez on the web</h3>
 			<p class="incr">
-				<a href="http://formatinternet.wordpress.com">javier ramirez's blog</a><br/>
-				<a href="http://twitter.com/supercoco9">javier ramirez at twitter</a><br/>
-				<a href="http://www.linkedin.com/in/ramirez">javier ramirez at linkedIn</a><br/>
-				<a href="http://www.google.com/profiles/javier.ramirez.gomara">javier ramirez's google profile</a><br/>
-				<a href="http://www.workingwithrails.com/person/5987-javier-ramirez">javier ramirez at working with rails</a><br/>
-				<a href="http://www.packtpub.com/aptana-rapid-rails-development/book%27">My book about RadRails</a><br/>
-				<a href="http://www.amazon.com/gp/pdp/profile/A2ZL6OB1YJYKE2/ref=ya__56">My author page @ Amazon</a><br/>
-				<a href="http://www.slideshare.net/supercoco9">javier ramirez @ slideshare</a><br/>
-				<a href="http://www.ideas4all.com">ideas4all: project I co-developed</a><br/>
-				<a href="http://www.freelancit.com">freelancit: project I co-developed</a><br/>
-				<a href="http://www.beruby.com">beruby: project I co-developed</a><br/>
-				<a href="http://www.aspgems.com">aspgems: the place where I work</a><br/>
-				<a href="http://www.infoq.com/articles/javier-ramirez-interview">interview @ infoQ</a><br/>
-				<a href="http://www.conferenciarails.org">I'm a member of the organization (and regular speaker) of Conferencia Rails</a><br/>
-				<a href="http://www.srug.org">I'm a founding member of the Spanish Ruby Users Group</a><br/>
-				<a href="http://groups.google.com/group/madrid-rb">I'm a founding member of the local Ruby group madrid-rb</a><br/>
-				<a href="http://app.euruko2009.org/people/4-javier-ramirez">javier ramirez @ EuRuKo 2009</a><br/>
-				<a href="https://www.xing.com/profile/Javier_Ramirez">javier ramirez @ xing</a><br/>
-				<a href="http://www.shelfari.com/javier">books I've read or am reading (@ shelfari)</a><br/>
+  			<a href="http://javier-ramirez.com" class="url">javier ramirez's home</a><br/>
+				<a href="http://formatinternet.com" class="url">javier ramirez's blog</a><br/>
+				<a href="http://twitter.com/supercoco9" class="url">javier ramirez at twitter</a><br/>
+				<a href="http://www.linkedin.com/in/ramirez" class="url">javier ramirez at linkedIn</a><br/>
+				<a href="http://www.google.com/profiles/javier.ramirez.gomara" class="url">javier ramirez's google profile</a><br/>
+				<a href="http://www.workingwithrails.com/person/5987-javier-ramirez" class="url">javier ramirez at working with rails</a><br/>
+				<a href="http://www.packtpub.com/aptana-rapid-rails-development/book%27" class="url">My book about RadRails</a><br/>
+				<a href="http://www.amazon.com/gp/pdp/profile/A2ZL6OB1YJYKE2/ref=ya__56" class="url">My author page @ Amazon</a><br/>
+				<a href="http://www.slideshare.net/supercoco9" class="url">javier ramirez @ slideshare</a><br/>
+				<a href="http://www.ideas4all.com" class="url">ideas4all: project I co-developed</a><br/>
+				<a href="http://www.freelancit.com" class="url">freelancit: project I co-developed</a><br/>
+				<a href="http://www.beruby.com" class="url">beruby: project I co-developed</a><br/>
+				<a href="http://www.aspgems.com" class="url">aspgems: the place where I work</a><br/>
+				<a href="http://www.infoq.com/articles/javier-ramirez-interview" class="url">interview @ infoQ</a><br/>
+				<a href="http://www.conferenciarails.org" class="url">I'm a member of the organization (and regular speaker) of Conferencia Rails</a><br/>
+				<a href="http://www.srug.org" class="url">I'm a founding member of the Spanish Ruby Users Group</a><br/>
+				<a href="http://groups.google.com/group/madrid-rb" class="url">I'm a founding member of the local Ruby group madrid-rb</a><br/>
+				<a href="http://app.euruko2009.org/people/4-javier-ramirez" class="url">javier ramirez @ EuRuKo 2009</a><br/>
+				<a href="https://www.xing.com/profile/Javier_Ramirez" class="url">javier ramirez @ xing</a><br/>
+				<a href="http://www.shelfari.com/javier" class="url">books I've read or am reading (@ shelfari)</a><br/>
 			</p>
 		</div>
 		<hr/>
 		<div class="span-7 colborder">
-		  <h3>Software Architect</h3>
+		  <h3 class="title">Software Architect</h3>
 
 		  <p>Good code is not just working code. It's well-designed code, following best practices and engineered taking into account concepts such as coupling, cohesion, readibility, manteinability and scalability.</p>
 		  <p>You need a vision, a passion for the detail and a craving for making things the right way; and you need to pass these values to the development team and make sure they all share them and treasure them.</p>
@@ -145,7 +146,7 @@ Users Group (SRUG)</a> and <a href="http://www.workingwithrails.com/group/3837-m
 		</div>
 
 		<div class="span-8 colborder">
-		  <h3>Web development</h3>
+		  <h3 class="note">Web development</h3>
 
 		  <p>Making a web page is very easy. That's both a blessing and a curse. </p>
 		  <p>On the bright side, it's great that anyone can make a personal website and be made immediately available to the whole world.</p>
@@ -154,7 +155,7 @@ Users Group (SRUG)</a> and <a href="http://www.workingwithrails.com/group/3837-m
 		</div>
 
 		<div class="span-7 last">
-		  <h3>Ruby on Rails</h3>
+		  <h3 class="note">Ruby on Rails</h3>
 		  <p>Ruby on Rails is my web development framework of choice at the moment.</p>
 		  <p>Standing on the shoulders of Ruby, Rails provides a full-stack framework designed for productivity.</p>
 		  <p>One of the features I dig about Ruby on Rails is the eagerness for incorporating all the new trends in web development.</p>
