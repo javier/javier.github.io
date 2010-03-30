@@ -1,5 +1,5 @@
 body { background: #FFFFFF url(images/gradient_white.jpg) repeat-x; color: #000000; }
-#menu { text-transform: lowercase; padding-top: 5px; text-align: right;}
+#menu { text-transform: lowercase; padding-top: 5px; text-align: right; font-size:1.1em}
 #menu li { display: inline; }
 #menu li a { padding: 3px 6px; color: #D31D8C; text-decoration: none; }
 #menu li a:hover, #menu li a.current { background: #EE88CD; }
