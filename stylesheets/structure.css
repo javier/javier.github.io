@@ -12,6 +12,7 @@ li { padding-bottom: 1.5em;}
 
 #footer { padding: 85px 0 5px 0; background: #A4F2F2 url(images/footer_white.jpg) repeat-x; min-height: 100px; }
 
+p.clean { padding-bottom: 1.5em; }
 
 /* to be used only in containers. Use for header and footer to get out of grid limits  */
 .container.full-width {width:100%}
