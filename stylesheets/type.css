@@ -5,14 +5,14 @@ body {font-size:80%;font-family:'Cantarell', Verdana,Georgia,"Helvetica Neue", A
 h1, h2, h3, h4, h5, h6, #menu {
 	color:#4DC5D6;
 	font-family:'IM Fell DW Pica', 'Essays1743Medium',Verdana,Georgia,"Helvetica Neue", Arial, Helvetica, sans-serif;
-        text-shadow: 4px 4px 4px #bbb;
+        text-shadow: 4px 4px 6px #bbb;
 	}
 
 .alt { 
 	font-family: 'IM Fell DW Pica', 'Essays1743Italic',"Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
 	font-style: normal;
 	color: #CBCB9C; 
-        text-shadow: 4px 4px 4px #bbb;
+        text-shadow: 4px 4px 6px #bbb;
 
 	} 
 a:focus, a:hover {color:#EE88CD;}
