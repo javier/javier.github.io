@@ -2,8 +2,7 @@
 javierweb:
   path: /home/javier/work/github/javier.github.com/stylesheets/grid  
   plugins:    
-    - buttons
-    - "fancy-type"
+    - buttons    
   semantic_classes:
     "nav#menu": ".column .prepend-4 .span-20 .last"
     "nav ul": ".large"      
