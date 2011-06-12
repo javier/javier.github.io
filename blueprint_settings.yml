@@ -1,0 +1,21 @@
+# refer to http://www.yaml.org/spec/1.1/ for clarification on YAML collections
+javierweb:
+  path: /home/javier/work/github/javier.github.com/stylesheets/grid  
+  plugins:    
+    - buttons
+    - "fancy-type"
+  semantic_classes:
+    "nav#menu": ".column .prepend-4 .span-20 .last"
+    "nav ul": ".large"      
+    "header h1": ".column .span-13 .prepend-1"
+    "header .aka": ".column .span-10 .last .quiet"
+    
+    "section.main": ".span-15 .prepend-1 .colborder"    
+    "aside": ".span-7 .last"
+    "section.software-architect": ".span-7 .colborder"
+    "section.web-development": ".span-8 .colborder"
+    "section.ruby-on-rails": ".span-7 .last"
+    "#inner-footer": ".container .prepend-top"
+    "#inner-footer section.contact": ".span-7 .append-1"
+    "#inner-footer section.blog": ".span-8 .color-link-dark"
+    "#inner-footer section.twitter": ".prepend-1 .span-7 .last"

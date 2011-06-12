@@ -1,21 +1,20 @@
 body { background: #FFFFFF url(images/gradient_white.jpg) repeat-x; color: #000000; }
-#menu { text-transform: lowercase; padding-top: 5px; text-align: right; font-size:1.1em}
-#menu li { display: inline; }
-#menu li a { padding: 3px 6px; color: #774444; text-decoration: none; }
-#menu li a:hover, #menu li a.current { color: #ff9911; }
+nav#menu { text-transform: lowercase; padding-top: 5px; text-align: right; font-size:1.0em}
+nav#menu li { display: inline; }
+nav#menu li a { padding: 3px 6px; color: #774444; text-decoration: none; }
+nav#menu li a:hover, #menu li a.current { color: #ff9911; }
 
 ul#twitter_update_list, ul#rss_update_list { list-style-type: none;} 
 ul#twitter_update_list, ul#rss_update_list { list-style-type: none;} 
 li { padding-bottom: 1.5em;}
 
-#header-separator {background: #FFFFFF; height: 15px;}
 
-#footer { padding: 85px 0 5px 0; background: #A4F2F2 url(images/footer_white.jpg) repeat-x; min-height: 100px; }
+footer { padding: 85px 0 5px 0; background: #A4F2F2 url(images/footer_white.jpg) repeat-x; min-height: 100px; width: 100%; height: 400px; }
 
-p.clean { padding-bottom: 1.5em; }
+section.main p, p.clean { padding-bottom: 1.5em; }
 
 /* to be used only in containers. Use for header and footer to get out of grid limits  */
-.container.full-width {width:100%}
+.full-width {width:100%;}
 
 
 		
