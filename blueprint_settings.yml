@@ -6,8 +6,9 @@ javierweb:
   semantic_classes:
     "nav#menu": ".column .prepend-4 .span-20 .last"
     "nav ul": ".large"      
-    "header h1": ".column .span-13 .prepend-1"
-    "header .aka": ".column .span-10 .last .quiet"
+    "header h1": ".column .span-11 .prepend-1"
+    "header .aka": ".column .span-12 .last .quiet"
+    "header h2": ".column .span-24"
     
     "section.main": ".span-15 .prepend-1 .colborder"    
     "aside": ".span-7 .last"

@@ -282,8 +282,9 @@ a.negative:active {background-color:#d12f19;border:1px solid #d12f19;color:#fff;
 /* semantic class names */
 nav#menu {margin-right:0;padding-right:0;float:left;margin-right:10px;margin-right:0;width:790px;padding-left:160px;}
 nav ul {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
-header h1 {float:left;margin-right:10px;width:510px;padding-left:40px;}
-header .aka {color:#666;margin-right:0;padding-right:0;float:left;margin-right:10px;margin-right:0;width:390px;}
+header h1 {float:left;margin-right:10px;width:430px;padding-left:40px;}
+header .aka {color:#666;margin-right:0;padding-right:0;float:left;margin-right:10px;margin-right:0;width:470px;}
+header h2 {float:left;margin-right:10px;width:950px;margin-right:0;}
 section.main {float:left;margin-right:10px;width:590px;padding-left:40px;padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}
 aside {margin-right:0;padding-right:0;float:left;margin-right:10px;margin-right:0;width:270px;}
 section.software-architect {float:left;margin-right:10px;width:270px;padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}

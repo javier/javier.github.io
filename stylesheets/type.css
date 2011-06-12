@@ -8,10 +8,13 @@ h2, h3, h4, h5, h6, #menu {
   text-shadow: 4px 4px 4px #bbb;
 	}
 
-h1 {
+header h1 {
   font-size: 5em;
   font-family:'Cabin Sketch';
+  margin-bottom: 0px;
   }
+
+aside h2 { font-size: 1.5em; }
 
 .alt { 
 	font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
