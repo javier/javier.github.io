@@ -13,9 +13,3 @@ footer { padding: 85px 0 5px 0; background: #A4F2F2 url(images/footer_white.jpg)
 /* to be used only in containers. Use for header and footer to get out of grid limits  */
 .full-width {width:100%;}
 
-article#manolito-rubyto { position: absolute; right:0; top:55px; z-index:100}
-
-		
-
-
- 
