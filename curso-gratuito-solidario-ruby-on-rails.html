@@ -1,0 +1,250 @@
+<!doctype html>
+  <html dir="ltr" lang="en">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="keywords" content="javier ramirez, javier, supercoco9, format internet, ruby on rails madrid, london, lrug, ruby on rails UK, ruby on rails London, spainrb, madridrb, ruby on rails spain, aspgems" />
+      <meta name="description" content="Personal page of Javier Ramirez Gomara. CTO at ASPgems, web developer and craftsengineer, specialized at the moment in Ruby on Rails. I live in London, UK (regularly travelling to Madrid, Spain) and blog in http://formatinternet.com" />
+      <meta name="author" content="javier ramirez gomara - copyright since 2009" />
+
+      <title>Curso gratuito de Ruby on Rails para desempleados | Javier Ramírez</title>
+
+      <link rel="openid.server" href="http://pip.verisignlabs.com//server" />
+      <link rel="openid.delegate" href="http://javier.pip.verisignlabs.com/" />
+
+      <link rel="stylesheet" href="stylesheets/grid/screen.css" type="text/css" media="screen, projection" />
+      <link rel="stylesheet" href="stylesheets/grid/print.css" type="text/css" media="print" />
+      <!--[if IE]><link rel="stylesheet" href="/stylesheets/grid/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+
+      <link rel="stylesheet" href="stylesheets/structure.css" type="text/css" media="screen, projection" />
+      <!-- link rel="stylesheet" href="stylesheets/fonts64.css" type="text/css" media="screen, projection" /-->
+      <link href='http://fonts.googleapis.com/css?family=Cantarell|Cabin+Sketch:bold' rel='stylesheet' type='text/css' />
+      <link rel="stylesheet" href="stylesheets/type.css" type="text/css" media="screen, projection" />
+
+      <link rel="alternate" type="application/rss+xml" title="javier ramirez: RSS Feed" href="http://feeds.feedburner.com/JavierRamirez" />
+      <link rel="pingback" href="http://formatinternet.wordpress.com/xmlrpc.php" />
+
+      <script src="http://www.google.com/jsapi?key=ABQIAAAAXV794GofahuBqHvuJ_GuqxQOQlFoB8tQojVQzYNVQxdP1orCLBQddSYuuweubtGRkTSAJX6NeOOUHA"></script>
+      <script>
+        //<![CDATA[
+        google.load("feeds", "1");
+
+        function rssFeedSetup() {
+          var feedpointer=new google.feeds.Feed("http://feeds.feedburner.com/FormatInternet"); //Google Feed API method
+          feedpointer.setNumEntries(4) //Google Feed API method
+          feedpointer.load(displayFeed) //Google Feed API method
+        }
+
+        function displayFeed(result) {
+          if (!result.error) {
+            var rssOutput=""
+            var theFeeds=result.feed.entries
+            for (var i=0; i<theFeeds.length; i++) {
+              rssOutput+="<li><a href='" + theFeeds[i].link + "'>" + theFeeds[i].title + "</a></li>";
+            }
+
+            document.getElementById("rss_update_list").innerHTML=rssOutput
+          }
+        }
+
+        google.setOnLoadCallback(rssFeedSetup);
+        //]]>
+      </script>
+      <meta name="google-site-verification" content="1JhFCwT8X4KvPGXoZp0HfYiaiNHxW0w2HK0V3YJBRG4" />
+    </head>
+
+    <body>
+      <div class="container">
+        <nav id="menu">
+          <ul>
+            <li>
+              <strong>
+              <a href="http://formatinternet.com">Blog</a>
+              </strong>
+            </li>
+            <li>
+              <strong>
+              <a href="http://twitter.com/supercoco9">twitter</a>
+              </strong>
+            </li>
+            <li>
+              <strong>
+              <a href="http://github.com/javier">github</a>
+              </strong>
+            </li>
+            <li>
+              <strong>
+              <a href="http://code.google.com/u/javier.ramirez.gomara/">google code</a>
+              </strong>
+            </li>
+            <li>
+              <strong>
+              <a href="http://rubyforge.org/users/javier/">ruby forge</a>
+              </strong>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container vcard">
+        <header>
+            <h1 class="span-24">
+              Curso solidario de ruby on rails
+            </h1>
+          <h2>
+            Gratuito. Para desarrolladores web en paro que busquen nuevas salidas
+          </h2>
+        </header>
+        <hr/>
+
+        <section class="main">
+          <p>
+            Dada la complicada situación que estamos viviendo últimamente, eueremos contribuir en la medida de nuestras posibilidades a crear empleo de calidad en España, por lo que ofrecemos un curso gratuito de Ruby on Rails
+            para desarrolladores web desempleados que quieran formarse en una tecnología para la que actualmente hay más demanda que oferta.
+          </p>
+          <h2>El curso</h2>
+          <p>
+            Estamos planteando un curso de alrededor de 15-20h, presencial, en las oficinas que nos cede ASPgems en Madrid. Como todos los profesores del curso estamos trabajando, tendremos que hacerlo en horario no laboral,
+            seguramente en tardes de 19 a 22 y algún sábado. La primera convocatoria del curso la planteamos para la semana del 20 de Agosto. Sería necesario un mínimo de cuatro alumnos para que el curso salga adelante.
+          </p>
+
+          <h3>Requisitos para alumnos</h3>
+          <p>
+            <ul>
+              <li>Estás en paro y quieres conseguir un trabajo desarrollando con Ruby on Rails</li>
+              <li>Programas en uno de estos lenguajes (o similar): JAVA, php, python, c# u otros .net</li>
+              <li>Has programado alguna página web en la que se mantuviese una sesión</li>
+              <li>Sabes trabajar con bases de datos. Conoces SQL</li>
+              <li>Te defiendes en HTML/CSS aunque no es necesario que seas un experto</li>
+              <li>Conoces subversión, git, o un sistema de control de versiones parecido</li>
+              <li>Puedes asistir presencialmente al curso en Madrid</li>
+              <li>Una vez acabado el curso, te comprometes a mantenerte al día participando en foros, listas de correo y grupos locales de Ruby on Rails</li>
+            </ul>
+          </p>
+
+          <h3>Selección de los alumnos</h3>
+          <p>
+            Para garantizar la calidad de la formación, limitamos el curso a un máximo de diez alumnos. En caso de que hubiese más interesados haríamos una selección basada en las circunstancias personales y, especialmente, en
+            la capacidad de los solicitantes. En cualquier caso, si recibiésemos un número elevado de solicitudes, podríamos organizar futuras convocatorias.
+          </p>
+
+          <h3>Inscripción</h3>
+            <p>
+              Si quieres apuntarte a nuestro curso, o si eres una empresa a la que le interesaría tener acceso a los alumnos una vez terminado el mismo, ponte en contacto enviando un mail a cursos@formatinternet.com
+            </p>
+        </section>
+        <aside>
+          <h2>¿Tienes una empresa?</h2>
+          <p class="clean">
+            Si contratas a un desarrollador Ruby on Rails formado en este curso, no solo te llevarás a un excelente profesional a tu equipo, sino que te ofrecemos un
+            servicio de consultoría (mediante videoconferencia) totalmente gratuito durante los primeros cuatro meses.
+          </p>
+          <p>
+            Así, tienes la garantía de que si tu nueva incorporación necesita un poco de soporte, lo va a tener.
+          </p>
+
+
+          <h3>Consultoría gratis</h3>
+          <p class="clean">
+            Por cada alumno contratado en tu equipo, te ofrecemos cuatro horas mensuales de consultoría mediante videoconferencia en Google plus durante los primeros cuatro meses.
+            Sería necesario reservar con antelación suficiente la consultoría para poderlo cuadrar en nuestras agendas.
+          </p>
+          <p>
+            En esta consultoría podrás consultarnos dudas genéricas de desarrollo con Ruby on Rails, de la arquitectura de tu aplicación o de la metodología/gestión de tu proyecto.
+          </p>
+          <p>
+            Para optar a la consultoría gratis te pedimos que formalices un contrato de al menos un año con el alumno contratado (puedes introducir un periodo de prueba de un mes si lo crees necesario)
+          </p>
+
+        </aside>
+        <hr/>
+        <section class="software-architect">
+          <h3>Qué aprenderemos</h3>
+            <p>
+              En el curso se aprenderá todo lo necesario para poder empezar a desarrollar aplicaciones web con Ruby on Rails.
+            </p>
+            <p>
+              Por la propia naturaleza de estos cursos, el contenido varía siempre en función del grupo de alumnos, pero un posible guión de los temas que se tratarían se puede encontrar en este
+              <a href="http://aspgems.com/services/curso-intro-rubyonrails/">curso comercial</a> que ofreció en su día <a href="http://aspgems.com">ASPgems</a>
+            </p>
+            <p>
+              Los cursos comerciales de este tipo tienen un coste aproximado de 1000 euros por alumno. Tienes una muy buena oportunidad de tener una formación cualificada que te puede ayudar a conseguir un trabajo en el sector
+            </p>
+        </section>
+
+        <section class="web-development">
+          <h3>Quiénes somos</h3>
+          <p>
+            Somos un equipo de desarrolladores Ruby on Rails que trabajamos en ASPgems pero que estamos ofreciendo esta formación como una iniciativa personal, sin vinculación con la empresa. En función de las fechas definitivas,
+            puede que el curso lo realice una u otra persona (normalmente participarán dos profesores por curso). Puedes ver nuestros perfiles en:
+          </p>
+          <p>
+            <a href="#">Gabriel Ortuño</a><br/>
+            <a href="#">Javier Lafora</a><br/>
+            <a href="http://twitter.com/laura_morillo">Laura Morillo</a><br/>
+            <a href="http://javier-ramirez.com">Javier Ramírez</a>
+          </p>
+        </section>
+
+        <section class="ruby-on-rails">
+          <h3>Agradecimientos</h3>
+          <p>
+            A <a href="http://aspgems.com">ASPgems por cedernos las instalaciones para el curso</a>
+          </p>
+          <p>
+            A <a href="http://blog.javierusobiaga.com/y-si-no-me-voy-de-espana">Javier Usobiaga</a> y
+            a <a href="http://loscuenca.com/2012/07/mi-grano-de-arena/">Agustín Cuenca</a> por el empujoncito para hacer esto
+          </p>
+        </section>
+        <hr/>
+      </div>
+      <footer>
+        <div id="inner-footer">
+          <section class="contact">
+            <p>
+              Depending on how you know me, I go with different nicknames and e-mail addresses.
+              <br/>
+              These are the ones I've been using lately
+              <br/>
+              <br/>
+              javier at formatinternet.com
+              <br/>
+              javier.ramirez.gomara at gmail.com
+              <br/>
+              jramirez at aspgems.com
+              <br/>
+              supercoco9 at yahoo.es
+              <br/>
+            </p>
+            <p>
+              <small>Are you looking for <a href="groovy_gandalf.html">groovy Gandalf?</a> (warning: <a href="http://en.wikipedia.org/wiki/Not_safe_for_work">NSFW</a>)</small>
+            </p>
+          </section>
+          <section class="blog color-link-dark">
+            <div class="box">
+              <h3 class="sidebar-title">My latest blog entries</h3>
+              <ul id="rss_update_list">
+                <li>
+                  &nbsp;
+                </li>
+              </ul>
+              <div id="formatinternet_feed"></div>
+              <a href="http://feeds.feedburner.com/FormatInternet" id="rss-link" style="display:block;text-align:right;">Subscribe to my feed</a>
+            </div>
+          </section>
+          <section class="twitter color-link-dark">
+            <div id="twitter_div" class="box">
+              <h3 class="sidebar-title">My latest tweets</h3>
+              <ul id="twitter_update_list">
+                <li>
+                  &nbsp;
+                </li>
+              </ul>
+              <a href="http://twitter.com/supercoco9" id="twitter-link" style="display:block;text-align:right;">follow me on Twitter</a>
+            </div>
+            <script src="http://twitter.com/javascripts/blogger.js"></script>
+            <script src="http://twitter.com/statuses/user_timeline/supercoco9.json?callback=twitterCallback2&amp;count=2"></script>
+          </section>
+        </div>
+      </footer>
+    </body>
+  </html>
+
