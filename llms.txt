@@ -1,0 +1,8 @@
+# Javier Ramírez
+
+> Personal site of Javier Ramírez (also known as supercoco9 / formatinternet), Head of Developer —and Agent— Relations at QuestDB. Data and ML enthusiast, ex-AWS Developer Advocate, ex-Google Developer Expert in Cloud, with over 20 years building software and sharing it with the community.
+
+## Pages
+
+- [Home](https://javier-ramirez.com/index.md): who Javier is and what he does at QuestDB, his background, speaking availability, and contact details
+- [Bio](https://javier-ramirez.com/bio.md): official short and long bio in English and Spanish, plus pointers to avatars and headshots

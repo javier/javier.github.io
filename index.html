@@ -1,254 +1,167 @@
 <!doctype html>
-  <html dir="ltr" lang="en">
-    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="description" content="Personal page of Javier Ramirez Gomara. Head of Developer —and Agent— Relations at QuestDB. Ex AWS. Data engineer, founder at teowaki. Ex Google Developer Expert in Cloud" />
-      <meta name="author" content="javier ramirez gomara - copyright since 2009 - updated on 2026" />
-
-      <title>Javier Ramirez | Head of Developer —and Agent— Relations at QuestDB, the Fastest Open Source Time Series Database</title>
-
-      <link rel="openid.server" href="http://pip.verisignlabs.com//server" />
-      <link rel="openid.delegate" href="http://javier.pip.verisignlabs.com/" />
-
-      <link rel="stylesheet" href="stylesheets/grid/screen.css" type="text/css" media="screen, projection" />
-      <link rel="stylesheet" href="stylesheets/grid/print.css" type="text/css" media="print" />
-      <!--[if IE]><link rel="stylesheet" href="/stylesheets/grid/ie.css" type="text/css" media="screen, projection" /><![endif]-->
-
-      <link rel="stylesheet" href="stylesheets/structure.css" type="text/css" media="screen, projection" />
-      <!-- link rel="stylesheet" href="stylesheets/fonts64.css" type="text/css" media="screen, projection" /-->
-      <link href='https://fonts.googleapis.com/css?family=Cantarell|Cabin+Sketch:bold' rel='stylesheet' type='text/css' />
-      <link rel="stylesheet" href="stylesheets/type.css" type="text/css" media="screen, projection" />
-
-      <script src="http://www.google.com/jsapi?key=ABQIAAAAXV794GofahuBqHvuJ_GuqxQOQlFoB8tQojVQzYNVQxdP1orCLBQddSYuuweubtGRkTSAJX6NeOOUHA"></script>
-
-      <meta name="google-site-verification" content="1JhFCwT8X4KvPGXoZp0HfYiaiNHxW0w2HK0V3YJBRG4" />
-      <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-34013272-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
-      </script>
-    </head>
-
-    <body>
-      <div class="container">
-        <nav id="menu">
-          <ul>
-            <li>
-              <strong>
-              <a href="http://javier-ramirez.com">Javier Ramírez</a>
-              </strong>
-            </li>
-            <li>
-              <strong>
-              <a href="http://twitter.com/supercoco9">twitter</a>
-              </strong>
-            </li>
-            <li>
-              <strong>
-              <a href="http://github.com/javier">github</a>
-              </strong>
-            </li>
-            <li>
-              <strong>
-                <a href="https://www.youtube.com/c/javierenlanube" class="url">YouTube</a>
-              </strong>
-            </li>
-            <li>
-              <strong>
-                <a href="https://questdb.io" class="url">QuestDB</a>
-              </strong>
-            </li>
-          </ul>
-        </nav>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal page of Javier Ramirez Gomara. Head of Developer —and Agent— Relations at QuestDB. Ex AWS. Data engineer, founder at teowaki. Ex Google Developer Expert in Cloud" />
+    <meta name="author" content="javier ramirez gomara - copyright since 2009 - updated on 2026" />
+    <meta name="google-site-verification" content="1JhFCwT8X4KvPGXoZp0HfYiaiNHxW0w2HK0V3YJBRG4" />
+    <title>Javier Ramirez | Head of Developer —and Agent— Relations at QuestDB, the Fastest Open Source Time Series Database</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
+    <style>
+      :root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--text:#c9d3de;--head:#ffffff;--muted:#9aa4b2;--accent:#e0529c;--accent2:#3fb6c9;--link:#3fe07a;--link-hi:#7dffab;--line:#222b36;--nav:rgba(13,17,23,.82)}
+      :root[data-theme="light"]{--bg:#f6f8fb;--panel:#ffffff;--ink:#1a2430;--text:#33414f;--head:#10202c;--muted:#5b6675;--accent:#d83f93;--accent2:#1787a0;--link:#0f8f48;--link-hi:#0b7d3d;--line:#e2e8f0;--nav:rgba(246,248,251,.85)}
+      *{box-sizing:border-box}
+      html{font-size:16px}
+      @media(min-width:1680px){html{font-size:18px}}
+      @media(min-width:2200px){html{font-size:20px}}
+      body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;transition:background .2s ease,color .2s ease}
+      a{color:var(--link);text-decoration:none}a:hover{color:var(--link-hi);text-decoration:underline}
+      .site-nav{position:sticky;top:0;z-index:10;backdrop-filter:blur(10px);background:var(--nav);border-bottom:1px solid var(--line)}
+      .nav-inner{max-width:67.5rem;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1.4rem;justify-content:flex-end;padding:.9rem 1.5rem;font-weight:600;text-transform:lowercase}
+      .theme-toggle{cursor:pointer;background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:.15rem .55rem;font-size:1rem;line-height:1.3}
+      .theme-toggle:hover{border-color:var(--link);color:var(--link)}
+      .hero{max-width:67.5rem;margin:0 auto;padding:3.5rem 1.5rem 2.5rem}
+      .hero h1{font-family:'Cabin Sketch',cursive;font-size:clamp(3.4rem,11vw,6.5rem);font-weight:700;letter-spacing:0;margin:0;line-height:1;background:linear-gradient(90deg,#1f9e57,#3fb6c9);-webkit-background-clip:text;background-clip:text;color:transparent}
+      .aka{color:var(--muted);margin:.5rem 0 1.2rem}
+      .role{font-size:clamp(1.1rem,2.6vw,1.6rem);font-weight:700;max-width:42ch;margin:0;color:var(--ink)}
+      .wrap{max-width:67.5rem;margin:0 auto;padding:1.5rem 1.5rem}
+      .cols{display:grid;grid-template-columns:1fr 300px;gap:2.5rem}
+      @media(max-width:820px){.cols{grid-template-columns:1fr}.side{position:static}}
+      .bio p{margin:0 0 1.15rem;color:var(--text)}
+      .side{position:sticky;top:4.5rem;align-self:start}
+      .side img{width:100%;max-width:250px;border-radius:14px;border:1px solid var(--line);display:block}
+      .side h2{font-size:1.15rem;margin:1.4rem 0 .6rem;color:var(--head)}
+      .links{list-style:none;margin:0;padding:0}.links li{padding:.22rem 0}
+      .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:.4rem 1.9rem;margin:1.5rem 0}
+      .card>summary{cursor:pointer;list-style:none;font-size:1.45rem;font-weight:700;color:var(--head);padding:1.3rem 0;display:flex;align-items:center;gap:.7rem;transition:color .15s ease}
+      .card>summary::-webkit-details-marker{display:none}
+      .card>summary::after{content:"+";color:var(--link);font-weight:700;transition:color .15s ease,transform .15s ease}
+      .card>summary:hover{color:var(--link)}
+      .card>summary:hover::after{color:var(--link-hi);transform:scale(1.3)}
+      .card[open]>summary::after{content:"–"}
+      .card .body{padding-bottom:1.2rem}
+      .card.static{padding:1.4rem 1.9rem}
+      .card.static h3{margin:.2rem 0 .8rem;font-size:1.45rem;color:var(--head)}
+      #university-list{padding-left:1.1rem}
+      footer{border-top:1px solid var(--line);margin-top:2rem}
+      footer .inner{max-width:67.5rem;margin:0 auto;padding:2rem 1.5rem;color:var(--muted)}
+      small{color:var(--muted)}
+      .tooltip{position:fixed;z-index:100;pointer-events:none;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:.18rem .5rem;font-size:.72rem;font-weight:600;letter-spacing:0;text-transform:none;white-space:nowrap;opacity:0;transform:translateY(3px);transition:opacity .1s ease,transform .1s ease;box-shadow:0 6px 18px rgba(0,0,0,.35)}
+      .tooltip.show{opacity:1;transform:translateY(0)}
+    </style>
+    <script>
+      (function(){var t='dark';try{if(localStorage.getItem('theme')==='light')t='light';}catch(e){}document.documentElement.setAttribute('data-theme',t);})();
+    </script>
+  </head>
+  <body>
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a href="/">Javier Ramírez</a>
+        <a href="http://twitter.com/supercoco9">twitter</a>
+        <a href="http://github.com/javier">github</a>
+        <a href="https://www.youtube.com/c/javierenlanube">YouTube</a>
+        <a href="https://questdb.com">QuestDB</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">🌙</button>
       </div>
-      <div class="container vcard">
-        <header>
-            <h1>
-            <span class="fn n">
-              <span class="given-name">Javier</span>
-              <span class="family-name">Ramírez</span>
-            </span>
-            </h1>
-            <span class="aka">
-              (also known as
-              <span class="nickname">supercoco9</span>,
-              <span class="nickname">formatinternet</span>)
-            </span>
-          <h2>
-            <span class="title">Head of Developer —and Agent— Relations at QuestDB and all around happy person.</span>
-          </h2>
-        </header>
-        <hr/>
+    </nav>
 
-        <section class="main">
-          <p>
-            As Head of Developer —and Agent— Relations at QuestDB, I help developers make the most of their (fast) data. These days developers build through AI agents, so a database that's awkward for an agent is awkward for the developer directing it.
-          </p>
-          <p>
-            A growing part of my job is closing that gap: writing skills and MCP servers, making our docs machine-legible (llms.txt, markdown, runnable examples against our public demo instance), doubling down on standard interfaces like SQL, REST, and Parquet, and curating a cookbook of common recipes so an agent has the building blocks before it starts. Most of these changes come from watching real agents struggle, then fixing whatever made them struggle. The goal is simple: give agents everything they need to produce correct, fast results with as few tokens as possible.
-          </p>
-          <p>
-            I also make sure the core team behind QuestDB listens to absolutely every piece of feedback I get, and I facilitate collaboration in our open source repository. Day to day that still means the full DevRel surface: docs, community, talks, demos, and shipping features (these days, via agents myself).
-          </p>
-          <p>
-            I love data, big and small, and I enjoy processing it with streaming engines, ML models, SQL, NoSQL, graph, in-memory, and time-series databases. I prefer distributed, scalable, always-on systems.
-          </p>
-          <p>
-            Before working at QuestDB I spent over 20 years developing software professionally and sharing what I learnt with the community. I've spoken at events in over 25 countries, mentored dozens of start-ups, taught for 6 years at different universities, and trained hundreds of professionals on cloud and data engineering.
-          </p>
+    <header class="hero">
+      <h1>Javier Ramírez</h1>
+      <p class="aka">(also known as supercoco9, formatinternet)</p>
+      <p class="role">Head of Developer —and Agent— Relations at QuestDB and all around happy person.</p>
+    </header>
+
+    <main class="wrap">
+      <div class="cols">
+        <section class="bio">
+          <p>As Head of Developer —and Agent— Relations at <a href="https://questdb.com">QuestDB</a>, I help developers make the most of their (fast) data. These days developers build through AI agents, so a database that's awkward for an agent is awkward for the developer directing it.</p>
+          <p>A growing part of my job is closing that gap: writing skills and MCP servers, making our docs machine-legible (llms.txt, markdown, runnable examples against our public demo instance), doubling down on standard interfaces like SQL, REST, and Parquet, and curating a cookbook of common recipes so an agent has the building blocks before it starts. Most of these changes come from watching real agents struggle, then fixing whatever made them struggle. The goal is simple: give agents everything they need to produce correct, fast results with as few tokens as possible.</p>
+          <p>I also make sure the core team behind QuestDB listens to absolutely every piece of feedback I get, and I facilitate collaboration in our open source repository. Day to day that still means the full DevRel surface: docs, community, talks, demos, and shipping features (these days, via agents myself).</p>
+          <p>I love data, big and small, and I enjoy processing it with streaming engines, ML models, SQL, NoSQL, graph, in-memory, and time-series databases. I prefer distributed, scalable, always-on systems.</p>
+          <p>Before working at QuestDB I spent over 20 years developing software professionally and sharing what I learnt with the community. I've spoken at events in over 25 countries, mentored dozens of start-ups, taught for 6 years at different universities, and trained hundreds of professionals on cloud and data engineering.</p>
         </section>
-        <aside>
-          <img src="https://gravatar.com/avatar/b5d967f0b84451319fd719451d19cc12.jpg?s=250" class="top photo" alt="javier ramirez, Head of Developer —and Agent— Relations at QuestDB, Data Engineer" title="javier ramirez" width="250" />
+        <aside class="side">
+          <img src="https://gravatar.com/avatar/b5d967f0b84451319fd719451d19cc12.jpg?s=250" alt="javier ramirez, Head of Developer —and Agent— Relations at QuestDB, Data Engineer" title="javier ramirez" width="250" />
           <h2>Javier Ramírez on the web</h2>
-          <p class="incr">
-            <a href="http://twitter.com/supercoco9" class="url">twitter</a>
-            <br/>
-            <a href="http://www.linkedin.com/in/ramirez" class="url">linkedIn</a>
-            <br/>
-            <a href="https://www.youtube.com/c/javierenlanube" class="url">Javier en la nube (youtube)</a>
-            <br/>
-            <a href="https://www.youtube.com/playlist?list=PLqAg9UUy8HudZFE4K1t46zciLfFg9C8Kg" class="url">Recordings of some talks</a>
-            <br/>
-
-            <a href="http://www.slideshare.net/supercoco9" class="url">slideshare</a>
-            <br/>
-            <a href="http://github.com/javier" class="url">github</a>
-            <br/>
-            <a href="https://stackoverflow.com/users/3035921/javier-ramirez" class="url">stackoverflow</a>
-            <br/>
-          </p>
-
-        </aside>
-        <hr/>
-        <section>
-          <h3>Speaking at your event</h3>
-          <p>
-            If you are hosting an event with developers, I will be happy to participate, as long as you have a code of conduct and are committed to diversity.
-            If I need to travel, I prefer mid-sized or large events. Of course I am more than happy to also engage online with events of every size. My local time zone is Central Europe.
-            I can present both in English and Spanish. Just ping me (public or privately) on <a href="http://twitter.com/supercoco9" class="url">twitter</a>.
-          </p>
-          <p>
-            <small>If I am speaking at your event, please use only the information above this line. <a href="bio.html">Click for high resolution image and Spanish bio</a></small>
-          </p>
-        </section>
-        <hr/>
-        <section >
-          <h3>More About me</h3>
-          <p>
-            Software engineer (working in IT since 1994) with a strong interest in Cloud Architecture and Big Data (since 2012), which took me to work as a Developer Advocate at AWS from 2019 to 2022, and since then as Head of Developer Relations at QuestDB. Before that I developed web applications and distributed systems with a focus on the data layer.
-            I co-founded <a href="http://teowaki.com" class="org">teowaki</a> and <a href="https://aprendoaprogramar.com">aprendoaprogramar</a>. I used to be Head of Engineering at Datatonic, partner and CTO at ASPgems, and a co-founder at Utende.
-          </p>
-          <p>
-            Having co-started 3 companies, and employed at 2 start-ups, I bring a startup mentality even when working with large corporations.
-          </p>
-          <p>
-            I'm currently based in Madrid. In the past I've worked in Zaragoza, Brescia, New York, Barcelona and London.
-          </p>
-          <p>
-            All along my career I have been a technical trainer on different subjects. I was also a part-time teacher at different universities on the topics of Software Engineering and Programming Languages (JAVA). In the past, I trained companies like Google, Cisco, Inmarsat, Lastminute, HSBC, Accenture, Zalando, BBC, JustEat, ScotiaBank, or HomeDepot.
-          </p>
-          <p>
-            In 2021, the Spanish Ministry of Education contracted me as one of the six experts to define the competencies a professional must have to receive a professional accreditation in Cloud. I reviewed the whole document, but especifically wrote the chapter on Databases, data processing, and analytics.
-          </p>  
-          <p>
-            I love tech conferences, and I have spoken at more than 100 events in about 25 countries about Time Series Databases, AWS, Data Lakes, Data Engineering, Machine Learning, Amazon Athena, Amazon EMR, Amazon S3, AWS Glue, Amazon Kinesis, Amazon Aurora, Amazon Neptune, Amazon SageMaker, Apache Flink, Apache Kafka, Apache Beam, Redis, Hadoop, Spark, PostgreSQL, Elasticsearch/OpenSearch, Serverless applications and Serverless Data Engineering, Security in the Cloud, Global Infrastructure, Ledger Databases, Blockchain, GCP, Streaming analytics, Artificial Intelligence, BigQuery, Dataflow, PubSub, Distributed Databases, Ruby on Rails, API usability, REST web services, hypermedia APIs, agile development, SEO, analytics, CSS frameworks, game development, software engineering, and team management. In the past, I also helped organizing a number of conferences and local groups.
-          </p>
-          <p>
-            When it comes to programming languages, over the years I've been fluent in Python, Ruby, and JAVA, and I've shipped my fair share of PHP and C++ too. Since 2025, though, that question matters far less than it used to. I now lean on decades of context about how software is actually built to direct agents that write code in pretty much any language, and I have production-grade code running in stacks like Rust and Go where I'd never claim to be proficient. I was never scared of learning new tricks anyway. After all, if I could learn to program using BASIC on an Amstrad when I was 12, and had to write COBOL on paper while at Uni, I'm pretty sure I can handle whichever stack is hot right now, with or without an agent at my side.
-          </p>
-          <p>
-            I was officially a <a href="https://developers.google.com/experts/">Google Developer Expert</a> on the Cloud Platform since 2014, and GCP Authorized Trainer since 2015, until I quit the program in 2019 to join AWS.
-            I was Google Certified both as Cloud Architect and Data Engineer, and due to my outstanding work with the data layer on GCP, Google regularly referred me to help their customers with complex data migrations.
-          </p>
-
-          <p>
-            I'm also the author of the book (not a best-seller, mind you)
-            <a href="http://www.packtpub.com/aptana-rapid-rails-development">
-            <em>
-            <span class="dquo">&#8220;</span>Aptana RadRails: An IDE for Rails Development&#8221;
-            </em>
-            </a>
-            , which I wrote back when I was an active member of the Ruby scene. I was a founding member of the
-            <a href="http://www.conferenciarails.org" class="org">Spanish Rails Conference</a>, the
-            <a href="http://www.srug.org" class="org">Spanish Ruby
-            Users Group (SRUG)</a>,
-            <a href="http://www.workingwithrails.com/group/3837-madrid-rb-madrid-ruby-and-rails-users-group" class="org">madrid-rb</a>, the Ruby users group in Madrid, and
-            <a href="https://rails-camp-es.jottit.com/" class="org">the Spanish Railscamp</a>. I used to be a coach at <a href="https://codebar.io/coaches?year=2013">codebar</a> and <a href="http://railsgirls.com/">Railsgirls</a>.
-            I mentored at several editions of <a href="https://masschallenge.org/">MassChallenge</a> and Google Launchpad.
-
-          </p>
-
-          I worked as a lecturer for three Universities:
-          <ul id='university-list'>
-            <li><span class="org">Fundación San Valero</span> (Software engineering I and Software analysis & design)</li>
-            <li><span class="org">Universidad Francisco de Vitoria</span> (JAVA programming and Advanced JAVA)</li>
-            <li><span class="org">Tracor/San Pablo CEU</span> (Web development with PHP and MySQL)</li>
+          <ul class="links">
+            <li><a href="http://twitter.com/supercoco9">twitter</a></li>
+            <li><a href="http://www.linkedin.com/in/ramirez">linkedIn</a></li>
+            <li><a href="https://www.youtube.com/c/javierenlanube">Javier en la nube (youtube)</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLqAg9UUy8HudZFE4K1t46zciLfFg9C8Kg">Recordings of some talks</a></li>
+            <li><a href="http://www.slideshare.net/supercoco9">slideshare</a></li>
+            <li><a href="http://github.com/javier">github</a></li>
+            <li><a href="https://stackoverflow.com/users/3035921/javier-ramirez">stackoverflow</a></li>
           </ul>
-          <p>I have delivered talks and workshops at several other universities, training institutions, and bootcamps, including
-          Instituto de Empresa, AFI, UPC, Universidad de Valladolid, IronHack, and Hack-a-boss.
-          </p>
-
-          <p>
-            The list of companies I've worked for includes
-            <span class="org">Fundación San Valero</span>,
-            <span class="org">Intersneter</span>,
-            <span class="org">Qarana Solutions</span>,
-            <span class="org">Genetsis Partners</span>,
-            <span class="org">Vector Software Factory</span>,
-            <span class="org">Intesys Integrated Services</span>,
-            <span class="org">Utende</span> (I co-founded it),
-            <span class="org">Fatwire</span> and
-            <span class="org">ASPgems</span>.
-            <span class="org">teowaki</span>.
-            <span class="org">Datatonic</span>.
-            <span class="org">Amazon Web Services</span>.
-            <span class="org">QuestDB</span>.
-          </p>
-        </section>
-
-        <hr/>
+        </aside>
       </div>
-      <footer>
-        <div id="inner-footer">
-          <section class="contact">
-            <p>
-              Depending on how you know me, I go with different nicknames and e-mail addresses.
-              <br/>
-              These are the ones I've been using lately
-              <br/>
-              <br/>
-              javier at formatinternet.com
-              <br/>
-              javier.ramirez.gomara at gmail.com
-              <br/>
-              j at teowaki.com
-              <br/>
-              supercoco9 at yahoo.es
-              <br/>
-            </p>
-            <p>
-              <small>Are you looking for <a href="groovy_gandalf.html">groovy Gandalf?</a> (warning: <a href="http://en.wikipedia.org/wiki/Not_safe_for_work">NSFW</a>)</small>
-            </p>
-            <p>
-              In case you are looking for information on <a href="curso-gratuito-solidario-ruby-on-rails.html">curso gratuito de ruby on rails</a>
-            </p>
-          </section>
-          <section class="blog color-link-dark">
 
-          </section>
-          <section class="twitter color-link-dark">
-
-          </section>
+      <details class="card">
+        <summary>Speaking at your event</summary>
+        <div class="body">
+          <p>If you are hosting an event with developers, I will be happy to participate, as long as you have a code of conduct and are committed to diversity. If I need to travel, I prefer mid-sized or large events. Of course I am more than happy to also engage online with events of every size. My local time zone is Central Europe. I can present both in English and Spanish. Just ping me (public or privately) on <a href="http://twitter.com/supercoco9">twitter</a>.</p>
+          <p><small>If I am speaking at your event, you'll find the official bio (both in English and Spanish) and headshots on <a href="bio.html">this page</a>.</small></p>
         </div>
-      </footer>
-    </body>
-  </html>
+      </details>
 
+      <details class="card">
+        <summary>More About me</summary>
+        <div class="body">
+          <p>Software engineer (working in IT since 1994) with a strong interest in Cloud Architecture and Big Data (since 2012), which took me to work as a Developer Advocate at AWS from 2019 to 2022, and since then as Head of Developer Relations at QuestDB. Before that I developed web applications and distributed systems with a focus on the data layer. I co-founded <a href="http://teowaki.com">teowaki</a> and <a href="https://aprendoaprogramar.com">aprendoaprogramar</a>. I used to be Head of Engineering at Datatonic, partner and CTO at ASPgems, and a co-founder at Utende.</p>
+          <p>Having co-started 3 companies, and employed at 2 start-ups, I bring a startup mentality even when working with large corporations.</p>
+          <p>I'm currently based in Madrid. In the past I've worked in Zaragoza, Brescia, New York, Barcelona and London.</p>
+          <p>All along my career I have been a technical trainer on different subjects. I was also a part-time teacher at different universities on the topics of Software Engineering and Programming Languages (JAVA). In the past, I trained companies like Google, Cisco, Inmarsat, Lastminute, HSBC, Accenture, Zalando, BBC, JustEat, ScotiaBank, or HomeDepot.</p>
+          <p>In 2021, the Spanish Ministry of Education contracted me as one of the six experts to define the competencies a professional must have to receive a professional accreditation in Cloud. I reviewed the whole document, but especifically wrote the chapter on Databases, data processing, and analytics.</p>
+          <p>I love tech conferences, and I have spoken at more than 100 events in about 25 countries about Time Series Databases, AWS, Data Lakes, Data Engineering, Machine Learning, Amazon Athena, Amazon EMR, Amazon S3, AWS Glue, Amazon Kinesis, Amazon Aurora, Amazon Neptune, Amazon SageMaker, Apache Flink, Apache Kafka, Apache Beam, Redis, Hadoop, Spark, PostgreSQL, Elasticsearch/OpenSearch, Serverless applications and Serverless Data Engineering, Security in the Cloud, Global Infrastructure, Ledger Databases, Blockchain, GCP, Streaming analytics, Artificial Intelligence, BigQuery, Dataflow, PubSub, Distributed Databases, Ruby on Rails, API usability, REST web services, hypermedia APIs, agile development, SEO, analytics, CSS frameworks, game development, software engineering, and team management. In the past, I also helped organizing a number of conferences and local groups.</p>
+          <p>When it comes to programming languages, over the years I've been fluent in Python, Ruby, and JAVA, and I've shipped my fair share of PHP and C++ too. Since 2025, though, that question matters far less than it used to. I now lean on decades of context about how software is actually built to direct agents that write code in pretty much any language, and I have production-grade code running in stacks like Rust and Go where I'd never claim to be proficient. I was never scared of learning new tricks anyway. After all, if I could learn to program using BASIC on an Amstrad when I was 12, and had to write COBOL on paper while at Uni, I'm pretty sure I can handle whichever stack is hot right now, with or without an agent at my side.</p>
+          <p>I was officially a <a href="https://developers.google.com/experts/">Google Developer Expert</a> on the Cloud Platform since 2014, and GCP Authorized Trainer since 2015, until I quit the program in 2019 to join AWS. I was Google Certified both as Cloud Architect and Data Engineer, and due to my outstanding work with the data layer on GCP, Google regularly referred me to help their customers with complex data migrations.</p>
+          <p>I'm also the author of the book (not a best-seller, mind you) <a href="http://www.packtpub.com/aptana-rapid-rails-development"><em>&#8220;Aptana RadRails: An IDE for Rails Development&#8221;</em></a> , which I wrote back when I was an active member of the Ruby scene. I was a founding member of the <a href="http://www.conferenciarails.org">Spanish Rails Conference</a>, the <a href="http://www.srug.org">Spanish Ruby Users Group (SRUG)</a>, <a href="http://www.workingwithrails.com/group/3837-madrid-rb-madrid-ruby-and-rails-users-group">madrid-rb</a>, the Ruby users group in Madrid, and <a href="https://rails-camp-es.jottit.com/">the Spanish Railscamp</a>. I used to be a coach at <a href="https://codebar.io/coaches?year=2013">codebar</a> and <a href="http://railsgirls.com/">Railsgirls</a>. I mentored at several editions of <a href="https://masschallenge.org/">MassChallenge</a> and Google Launchpad.</p>
+          <p>I worked as a lecturer for three Universities:</p>
+          <ul id="university-list">
+            <li>Fundación San Valero (Software engineering I and Software analysis & design)</li>
+            <li>Universidad Francisco de Vitoria (JAVA programming and Advanced JAVA)</li>
+            <li>Tracor/San Pablo CEU (Web development with PHP and MySQL)</li>
+          </ul>
+          <p>I have delivered talks and workshops at several other universities, training institutions, and bootcamps, including Instituto de Empresa, AFI, UPC, Universidad de Valladolid, IronHack, and Hack-a-boss.</p>
+          <p>The list of companies I've worked for includes Fundación San Valero, Intersneter, Qarana Solutions, Genetsis Partners, Vector Software Factory, Intesys Integrated Services, Utende (I co-founded it), Fatwire and ASPgems. teowaki. Datatonic. Amazon Web Services. QuestDB.</p>
+        </div>
+      </details>
+    </main>
+
+    <footer>
+      <div class="inner">
+        <p>Depending on how you know me, I go with different nicknames and e-mail addresses.<br/>These are the ones I've been using lately<br/><br/>javier at questdb.com<br/>javier at formatinternet.com<br/>javier.ramirez.gomara at gmail.com<br/>j at teowaki.com<br/>supercoco9 at yahoo.es</p>
+        <p><small>Are you looking for <a href="groovy_gandalf.html">groovy Gandalf?</a> (warning: <a href="http://en.wikipedia.org/wiki/Not_safe_for_work">NSFW</a>)</small></p>
+        <p>In case you are looking for information on <a href="curso-gratuito-solidario-ruby-on-rails.html">curso gratuito de ruby on rails</a></p>
+      </div>
+    </footer>
+    <div id="tooltip" class="tooltip" role="tooltip"></div>
+    <script>
+      (function(){
+        var root=document.documentElement, btn=document.getElementById('themeToggle'), tipEl=document.getElementById('tooltip');
+        function isDark(){return root.getAttribute('data-theme')!=='light';}
+        function render(){btn.textContent=isDark()?'🌙':'☀️';btn.setAttribute('data-tip',isDark()?'Light mode':'Dark mode');}
+        render();
+        btn.addEventListener('click',function(e){
+          var d=!isDark();
+          root.setAttribute('data-theme',d?'dark':'light');
+          try{localStorage.setItem('theme',d?'dark':'light');}catch(_){}
+          render(); showTip(btn,e);
+        });
+        Array.prototype.forEach.call(document.querySelectorAll('details.card'),function(d){
+          var s=d.querySelector('summary');
+          function tip(){s.setAttribute('data-tip',d.open?'Collapse':'Open');}
+          tip(); d.addEventListener('toggle',tip);
+        });
+        function place(x,y){var tw=tipEl.offsetWidth,th=tipEl.offsetHeight;var left=Math.min(x+14,window.innerWidth-tw-6);var top=y+18;if(top+th>window.innerHeight-6)top=y-th-12;tipEl.style.left=Math.max(6,left)+'px';tipEl.style.top=Math.max(6,top)+'px';}
+        function showTip(el,e){var t=el.getAttribute('data-tip');if(!t){hideTip();return;}tipEl.textContent=t;tipEl.classList.add('show');if(e)place(e.clientX,e.clientY);}
+        function hideTip(){tipEl.classList.remove('show');}
+        Array.prototype.forEach.call(document.querySelectorAll('[data-tip]'),function(el){
+          el.addEventListener('mouseenter',function(e){showTip(el,e);});
+          el.addEventListener('mousemove',function(e){if(tipEl.classList.contains('show'))place(e.clientX,e.clientY);});
+          el.addEventListener('mouseleave',hideTip);
+        });
+      })();
+    </script>
+  </body>
+</html>
